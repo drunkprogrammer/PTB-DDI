@@ -6,15 +6,17 @@
 
 - [Overview](#overview)
 - [Config PTB-DDI Environment](#Config PTB-DDI Environment)
-- [Train & Test on the BIOSNAP dataset](#Train & Test on the BIOSNAP dataset)
-- [Train & Test on the DrugBank dataset](#Train & Test on the DrugBank dataset)
+- [Train and Test on the BIOSNAP dataset](#Train and Test on the BIOSNAP dataset)
+- [Train and Test on the DrugBank dataset](#Train and Test on the DrugBank dataset)
 - [Notice](#Notice)
 
 ## Overview 
 
 PTB-DDI: Accurate and Simple Framework for Drug-Drug Interaction Prediction Based on Pre-trained Tokenizer and BiLSTM Model
 
+
 ## Config PTB-DDI Environment
+
 ```
 conda create -n PTB-DDI
 conda activate PTB-DDI
@@ -31,7 +33,8 @@ pip install protobuf untangle deepchem bertviz
 pip install torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-1.13.1+cu116.html
 ```
 
-## Train & Test on the BIOSNAP dataset
+
+## Train and Test on the BIOSNAP dataset
 ** Parameter-sharing **
 ```
 python3 main.py --train_root './datasets/BIOSNAP/biosnap_train/' --train_path 'train_val_biosnap_smiles_new.csv' --test_root './datasets/BIOSNAP/biosnap_test/' --test_path 'test_ biosnap_smiles_new.csv' --batch_size 8 --epochs 30 --lr 2e-5 --weight_decay 2e-4 --gamma 0.8 --dropout 0 --mode train --shared True --model_name biosnap --saved_root './trained_record/biosnap/'
