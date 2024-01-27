@@ -54,8 +54,7 @@ python3 test.py --test_root './datasets/BIOSNAP/biosnap_test/' --test_path 'test
 ```
 
 
-
-## Train & Test on the DrugBank Dataset
+## Train and Test on the DrugBank Dataset
 
 ** Parameter-sharing **
 ```
@@ -76,7 +75,8 @@ python3 ddi2013.py --test_root './datasets/drugbank/drugbank_test/' --test_path 
 ```
 
 ## Notice
-If you use this code, please cite our paper:
+> [!NOTE]
+> If you use this code, please cite our paper:
 ```
 @article{Qiu2024ptb-ddi,
   title={PTB-DDI: Accurate and Simple Framework for Drug-Drug Interaction Prediction Based on Pre-trained Tokenizer and BiLSTM Model},
