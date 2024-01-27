@@ -5,9 +5,9 @@
 ## Contents
 
 - [Overview](#overview)
-- [Config PTB-DDI Environment](#Config PTB-DDI Environment)
-- [Train and Test on the BIOSNAP dataset](#Train and Test on the BIOSNAP dataset)
-- [Train and Test on the DrugBank dataset](#Train and Test on the DrugBank dataset)
+- [Config PTB-DDI Environment](#Environment)
+- [Train and Test on the BIOSNAP dataset](#BIOSNAP)
+- [Train and Test on the DrugBank dataset](#DrugBank)
 - [Notice](#Notice)
 
 ## Overview 
