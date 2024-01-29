@@ -1,6 +1,6 @@
 # PTB-DDI
 
-![](https://github.com/drunkprogrammer/PTB-DDI/blob/main/Overall Architecture.png)
+![](https://github.com/drunkprogrammer/PTB-DDI/blob/main/Overall-Architecture.png)
 
 ## Contents
 
