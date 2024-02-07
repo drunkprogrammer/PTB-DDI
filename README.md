@@ -47,7 +47,7 @@ python3 main.py --train_root './datasets/BIOSNAP/biosnap_train/' --train_path 't
 python3 main.py --train_root './datasets/BIOSNAP/biosnap_train/' --train_path 'train_val_biosnap_smiles_new.csv' --test_root './datasets/BIOSNAP/biosnap_test/' --test_path 'test_ biosnap_smiles_new.csv' --batch_size 8 --epochs 30 --lr 2e-5 --weight_decay 2e-4 --gamma 0.8 --dropout 0 --mode train --shared False --model_name biosnap --saved_root './trained_record/biosnap/'
 ```
 
-### Test using our best model
+<!--### Test using our best model
 
 **Parameter-sharing**
 ```
@@ -58,7 +58,7 @@ python3 test.py --test_root './datasets/BIOSNAP/biosnap_test/' --test_path 'test
 ```
 python3 test.py --test_root './datasets/BIOSNAP/biosnap_test/' --test_path 'test_ biosnap_smiles_new.csv' --batch_size 8 --epochs 30 --lr 2e-5 --weight_decay 2e-4 --gamma 0.8 --dropout 0 --mode test --shared True --model_name biosnap --saved_root './trained_record/biosnap/' --load_model_path './trained_record/biosnap/parameter_independent/'
 ```
-
+-->
 
 ## Train and Test on the DrugBank Dataset
 
@@ -74,7 +74,8 @@ python3 main.py --train_root './datasets/drugbank/drugbank_train/' --train_path 
 ```
 
 
-### Test using our best model
+
+<!-- ### Test using our best model
 
 **Parameter-sharing**
 ```
@@ -85,7 +86,7 @@ python3 ddi2013.py --test_root './datasets/drugbank/drugbank_test/' --test_path 
 ```
 python3 ddi2013.py --test_root './datasets/drugbank/drugbank_test/' --test_path 'test_ drugbank_smiles_new.csv' --batch_size 16 --lr 2e-5 --weight_decay 1e-2 --gamma 0.8 --dropout 0 --mode test --shared True --model_name drugbank --saved_root './trained_record/drugbank/' --load_model_path './trained_record/drugbank/parameter_independent/'
 ```
-
+-->
 
 ## Notice
 > [!NOTE]
