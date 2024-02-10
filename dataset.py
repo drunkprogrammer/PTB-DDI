@@ -126,5 +126,8 @@ class DDIDataset(InMemoryDataset):
             data_list = [self.pre_transform(data) for data in data_list]
 
         data, slices = self.collate(data_list)
+        
         # save preprocessed data:
+        if not os.path.exists(self.processed_paths[0]):
+            os.makedirs(self.processed_paths[0])
         torch.save((data, slices), self.processed_paths[0])
