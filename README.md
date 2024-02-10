@@ -38,7 +38,7 @@ pip install protobuf untangle deepchem bertviz
 
 **Parameter-sharing**
 ```
-python3 main.py --train_root './datasets/BIOSNAP/biosnap_train/' --train_path 'train_val_biosnap_smiles_new.csv' --test_root './datasets/BIOSNAP/biosnap_test/' --test_path 'test_ biosnap_smiles_new.csv' --batch_size 8 --epochs 30 --lr 2e-5 --weight_decay 2e-4 --gamma 0.8 --dropout 0 --mode train --shared True --model_name biosnap --saved_root './trained_record/biosnap/'
+python3 main.py --train_root './datasets/BIOSNAP/biosnap_train/' --train_path 'train_val_biosnap_smiles_new.csv' --test_root './datasets/BIOSNAP/biosnap_test/' --test_path 'test_biosnap_smiles_new.csv' --batch_size 8 --epochs 30 --lr 2e-5 --weight_decay 2e-4 --gamma 0.8 --dropout 0 --mode train --shared True --model_name biosnap --saved_root './trained_record/biosnap/'
 ```
 
 
