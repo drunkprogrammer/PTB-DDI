@@ -1,6 +1,7 @@
 import torch
 import pandas as pd
 import os
+import torch.nn as nn
 import seaborn as sns
 import numpy as np
 from sklearn.metrics import precision_score, recall_score
