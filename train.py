@@ -121,9 +121,6 @@ def train_eval(config):
         print('acc:', acc)
 
         # ======================================================================
-        wandb.log({'epoch': epoch, 'best epoch': best_epoch, 'acc': acc, 'train_loss': train_loss.item(), 'valid_loss': va_loss, 'best_val_acc': model.best_metric, 'best_ma_f1': model.best_ma_f1, 'best_roc_auc': model.best_roc_auc, 'best_pr_auc': model.best_pr_auc})
-
-        # ======================================================================
         log = f"epoch:{epoch}  train_loss:{tr_loss}" + "\n" + f"valid_loss:{va_loss}" +  "\n" + \
               f"roc_auc:{roc_auc_score}" + "\n" + f"pr_auc:{pr_auc_score}" + "\n" +\
               f"macro f1: {f1}" + "\n" + f"acc:{acc}" + "\n" + \
