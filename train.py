@@ -51,9 +51,6 @@ def train_eval(config):
     saved_path = config.saved_root + nowtime + '/'
     log_filename = '{0}{1}.log'.format(saved_path, nowtime)
 
-
-    wandb.init(project=config.project_name, config=config, name=nowtime, save_code=True)
-    # model.run_id = wandb.run.id
     # ======================================================================
 
     print('-----Training-----')
@@ -164,9 +161,4 @@ def train_eval(config):
           f"test dataset macro f1: {f1_test}" + "\n" + f"test dataset acc:{acc_test}" + "\n" + \
           cls_report_test + "\n"
 
-
     get_logging(log, log_filename, eval='test')
-
-    # ======================================================================
-    wandb.finish()
-    # ======================================================================
