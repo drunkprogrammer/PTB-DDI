@@ -34,6 +34,8 @@ if __name__ == "__main__":
                         help='..')
     parser.add_argument('--step_size', default=10, type=int, required=False,
                         help='..')
+    parser.add_argument('--num_class', default=2, type=int, required=False,
+                        help='..')
     parser.add_argument('--mode', default='train', type=str, required=False,
                         help='train or test')
     parser.add_argument('--shared', default=True, type=bool, required=False,
