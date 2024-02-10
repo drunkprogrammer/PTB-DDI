@@ -2,6 +2,7 @@ from train import train_eval
 from test import test
 from model import D1Model
 
+import torch
 import datetime
 import argparse
 
