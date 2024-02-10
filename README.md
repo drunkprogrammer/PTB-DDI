@@ -27,10 +27,10 @@ conda install -c conda-forge matplotlib==3.5.1
 conda install -c conda-forge numpy==1.22.0
 conda install -c conda-forge pandas==1.3.5 tqdm==4.62.3 
 conda install -c conda-forge transformers
+conda install -c anaconda seaborn
 pip install torch_geometric
 pip install rdkit
 pip install protobuf untangle deepchem bertviz
-pip install torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-1.13.1+cu116.html
 ```
 
 
