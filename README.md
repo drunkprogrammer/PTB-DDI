@@ -62,6 +62,8 @@ python3 test.py --test_root './datasets/BIOSNAP/biosnap_test/' --test_path 'test
 
 ## Train and Test on the DrugBank Dataset
 
+Please unzip the dataset rar archive.
+
 **Parameter-sharing**
 ```
 python3 main.py --train_root './datasets/drugbank/drugbank_train/' --train_path 'train_ drugbank_smiles_new.csv' --test_root './datasets/drugbank/drugbank_test/' --test_path 'test_ drugbank_smiles_new.csv' --batch_size 16 --epochs 30 --lr 2e-5 --weight_decay 1e-2 --gamma 0.8 --dropout 0 --mode train --shared True --model_name drugbank --saved_root './trained_record/drugbank/'
@@ -72,8 +74,6 @@ python3 main.py --train_root './datasets/drugbank/drugbank_train/' --train_path 
 ```
 python3 main.py --train_root './datasets/drugbank/drugbank_train/' --train_path 'train_ drugbank_smiles_new.csv' --test_root './datasets/drugbank/drugbank_test/' --test_path 'test_ drugbank_smiles_new.csv' --batch_size 16 --epochs 30 --lr 2e-5 --weight_decay 1e-2 --gamma 0.8 --dropout 0 --mode train --shared False --model_name drugbank --saved_root './trained_record/drugbank/'
 ```
-
-
 
 <!-- ### Test using our best model
 
@@ -101,7 +101,7 @@ python3 ddi2013.py --test_root './datasets/drugbank/drugbank_test/' --test_path 
 ```
 
 
-The BIOSNAP dataset and DrugBank dataset are from the following paper:
+The original BIOSNAP and DrugBank datasets are from the following paper:
 ```
 @article{huang2019caster,
   title={CASTER: Predicting Drug Interactions with Chemical Substructure Representation},
