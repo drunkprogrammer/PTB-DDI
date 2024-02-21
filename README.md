@@ -62,7 +62,7 @@ python3 test.py --test_root './datasets/BIOSNAP/biosnap_test/' --test_path 'test
 
 ## Train and Test on the DrugBank Dataset
 
-Please unzip the DrugBank dataset rar archive.
+Please unzip the DrugBank dataset archive first.
 
 **Parameter-sharing**
 ```
