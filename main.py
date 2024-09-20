@@ -38,8 +38,7 @@ if __name__ == "__main__":
                         help='..')
     parser.add_argument('--mode', default='train', type=str, required=False,
                         help='train or test')
-    parser.add_argument('--shared', action='store_true', help="Enable sharing mode"
-                        help='..')
+    parser.add_argument('--shared', action='store_true', help="Enable sharing mode")
     parser.add_argument('--sequence_length', default=512, type=int, required=False,
                         help='..')
     parser.add_argument('--hidden_dim_1d', default=128, type=int, required=False,
