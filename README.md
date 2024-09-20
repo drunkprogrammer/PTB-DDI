@@ -94,7 +94,7 @@ python3 ddi2013.py --test_root './datasets/drugbank/drugbank_test/' --test_path 
 ```
 @article{Qiu2024ptb-ddi,
   title={PTB-DDI: Accurate and Simple Framework for Drug-Drug Interaction Prediction Based on Pre-trained Tokenizer and BiLSTM Model},
-  author={Qiu, Jiayue and Yan, Xiao and Tian, Yanan and Li, Qin and Liu, Xiaomeng and Yang, Yuwei and Tang, Haiyi and Yao, Xiaojun and Liu, Huanxiang},
+  author={Qiu, Jiayue and Yan, Xiao and Tian, Yanan and Li, Qin and Liu, Xiaomeng and Yang, Yuwei and Tang, Haiyi and Liu, Huanxiang},
   journal={***},
   year={2024}
 }
