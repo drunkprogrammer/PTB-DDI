@@ -93,9 +93,9 @@ python3 ddi2013.py --test_root './datasets/drugbank/drugbank_test/' --test_path 
 > If you use this code, please cite our paper:
 ```
 @article{Qiu2024ptb-ddi,
-  title={PTB-DDI: Accurate and Simple Framework for Drug-Drug Interaction Prediction Based on Pre-trained Tokenizer and BiLSTM Model},
+  title={PTB-DDI: An Accurate and Simple Framework for Drug-Drug Interaction Prediction Based on Pre-trained Tokenizer and BiLSTM Model},
   author={Qiu, Jiayue and Yan, Xiao and Tian, Yanan and Li, Qin and Liu, Xiaomeng and Yang, Yuwei and Tang, Haiyi and Liu, Huanxiang},
-  journal={***},
+  journal={IJMS},
   year={2024}
 }
 ```
